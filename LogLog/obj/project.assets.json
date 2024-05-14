@@ -1,0 +1,94 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Loggers/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Loggers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Loggers.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Loggers/1.0.0": {
+      "type": "project",
+      "path": "../Loggers/Loggers.csproj",
+      "msbuildProject": "../Loggers/Loggers.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Loggers >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ruben\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\horizon\\bit-academy\\c#-oop-beginer\\level-3\\ObjectClass-e1262d316e7f-5accf74e7d98\\LogLog\\LogLog.csproj",
+      "projectName": "LogLog",
+      "projectPath": "C:\\horizon\\bit-academy\\c#-oop-beginer\\level-3\\ObjectClass-e1262d316e7f-5accf74e7d98\\LogLog\\LogLog.csproj",
+      "packagesPath": "C:\\Users\\ruben\\.nuget\\packages\\",
+      "outputPath": "C:\\horizon\\bit-academy\\c#-oop-beginer\\level-3\\ObjectClass-e1262d316e7f-5accf74e7d98\\LogLog\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\ruben\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "C:\\horizon\\bit-academy\\c#-oop-beginer\\level-3\\ObjectClass-e1262d316e7f-5accf74e7d98\\Loggers\\Loggers.csproj": {
+              "projectPath": "C:\\horizon\\bit-academy\\c#-oop-beginer\\level-3\\ObjectClass-e1262d316e7f-5accf74e7d98\\Loggers\\Loggers.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

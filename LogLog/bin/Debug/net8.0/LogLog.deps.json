@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "LogLog/1.0.0": {
+        "dependencies": {
+          "Loggers": "1.0.0"
+        },
+        "runtime": {
+          "LogLog.dll": {}
+        }
+      },
+      "Loggers/1.0.0": {
+        "runtime": {
+          "Loggers.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LogLog/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Loggers/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
